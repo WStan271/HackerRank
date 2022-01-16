@@ -10,3 +10,6 @@ def getHexa(num):
     return '{0:x}'.format(num)
 def getBinary(num):
     return '{0:b}'.format(num)
+
+
+#https://www.hackerrank.com/challenges/python-string-formatting/problem
