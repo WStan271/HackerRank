@@ -1,0 +1,12 @@
+def print_formatted(number):
+    for i in range(number):
+        print(getDecimal(i+1), getOctal(i+1),getHexa(i+1), getBinary(i+1))
+        
+def getDecimal(num):
+    return num
+def getOctal(num):
+    return '{0:o}'.format(num)
+def getHexa(num):
+    return '{0:x}'.format(num)
+def getBinary(num):
+    return '{0:b}'.format(num)
